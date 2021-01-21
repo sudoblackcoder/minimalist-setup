@@ -27,13 +27,7 @@ cat<<title
 ** Only Works In: proot-distro ubuntu (other debian based not checked yet)
 
 title
-read -p "Do you want to continue? [y/N]" opt
-if [ $opt -eq "y" ]
-then
-	continue
-else
-	break
-fi
+
 cat>>"=> ** proot-distro minimize everything. extracting to large system"
 unminimize
 cat>>"[ Done ]: extract to large system."
