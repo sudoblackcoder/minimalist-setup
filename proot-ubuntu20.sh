@@ -27,15 +27,11 @@ title
 
 unminimize
 
-apt install man info
+apt install man info neovim unzip unrar sxiv newsboat abook lynx mediainfo atool fzf highlight xclip
 
 apt install python2 python3 python3-pip golang-go && curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py && python2 get-pip.py
 
-apt install neovim unzip unrar
-
 env CGO_ENABLED=0 GO111MODULE=on go get -u ldflags="-s -w" github.com/gokcehan/lf
-
-apt install sxiv newsboat abook lynx mediainfo atool fzf highlight xclip
 
 sudo apt install bison libncurses5-dev libncursesw5-dev libxml2-dev libzip-dev
 git clone https://github.com/jmcnamara/libxlswriter.git && cd libxlswriter && make && make install
