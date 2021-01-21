@@ -7,22 +7,19 @@ cat<<title
 2.  lf - File Manager
 3.  sxiv - Image Viewer
 4.  neovim - Vim Editor
-5.  mpd - Lightweight Music Demon
-6.  mpc - Terminal Interface of mpd
-7.  ncmpcpp - Ncurses Interface for Music With Powerfull Tag Editor
-8.  newsboat - Terminal RSS Client
-9.  sc-im - Excel Like Terminal SpreadSheet Manager
-10. abook - Offline Addressbook usable by neomutt
-11. unrar - Extracts RAR
-12. unzip - Extracts ZIP
-13. lynx - Terminal browser
-14. mediainfo - Shows Audio And Video Information
-15. atool - Manages and Gives Information About Archives
-16. fzf - Fuzzy Finder Tool
-17. highlight - Highlights Code Output
-18. xclip - Allows for Copying and Pasting From Command Line
-19. python - Python Programming Language (python2, python3)
-20. go - Go Programming Language
+5.  newsboat - Terminal RSS Client
+6.  sc-im - Excel Like Terminal SpreadSheet Manager
+7. abook - Offline Addressbook usable by neomutt
+8. unrar - Extracts RAR
+9. unzip - Extracts ZIP
+10. lynx - Terminal browser
+11. mediainfo - Shows Audio And Video Information
+12. atool - Manages and Gives Information About Archives
+13. fzf - Fuzzy Finder Tool
+14. highlight - Highlights Code Output
+15. xclip - Allows for Copying and Pasting From Command Line
+16. python - Python Programming Language (python2, python3)
+17. go - Go Programming Language
 ---------------------------------------
 ** Only Works In: proot-distro ubuntu (other debian based not checked yet)
 
