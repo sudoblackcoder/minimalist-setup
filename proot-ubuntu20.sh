@@ -28,28 +28,20 @@ cat<<title
 
 title
 
-cat>>"=> ** proot-distro minimize everything. extracting to large system"
 unminimize
-cat>>"[ Done ]: extract to large system."
-cat>>"=> [ Installing ]: MAN INFO"
+
 apt install man info
-cat>>"[ Done ]: man-db info"
-cat>>"=> [ Installing ]: Python PIP GO"
+
 apt install python2 python3 python3-pip golang-go && curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py && python2 get-pip.py
-cat>>"[ Done ]: python2 python3 pip2 pip3 go"
-cat>>"[ Installing ]: Neovim unzip unrar"
+
 apt install neovim unzip unrar
-cat>>"[ Done ]: neovim unzip unrar"
-cat>>"[ Installing ]: LF file manager"
+
 env CGO_ENABLED=0 GO111MODULE=on go get -u ldflags="-s -w" github.com/gokcehan/lf
-cat>>"[ Done ]: lf"
-cat>>"=> [ Installing ]: SXIV NEWSBOAT ABOOK LYNX MEDIAINFO ATOOL FZF HIGHLIGHT XCLIP"
+
 apt install sxiv newsboat abook lynx mediainfo atool fzf highlight xclip
-cat>>"[ Done ]: sxiv newsboat abook lynx mediainfo atool fzf highlight xclip"
-cat>>"=> [ Installing ]: SC-IM"
+
 sudo apt install bison libncurses5-dev libncursesw5-dev libxml2-dev libzip-dev
 git clone https://github.com/jmcnamara/libxlswriter.git && cd libxlswriter && make && make install
 ldconfig
 cd ~ && git clone https://github.com/andmarti1424/sc-im.git && cd sc-im/src && make && make install & cd ~
 rm -rf libxlswriter sc-im
-cat>>"[ Done ]: sc-im"
